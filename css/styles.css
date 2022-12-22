@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: DauphinPlain;
+    src: url(../fonts/Dauphin.ttf);
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family:'Open Sans';
+}
+img {
+    border-radius: 50%;
+}
+.titulo-articulo {
+    font-weight: 400;
+    font-family: DauphinPlain;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#titulo-principal {
+    font-size: 70px;
+    line-height: 90px;
+    font-family: DauphinPlain;
+    margin: 0;
+    padding: 0;
+}
+#subtitulo1 {
+    margin: 10px 10px 5px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+}
+#subtitulo2 {
+    margin: 5px 10px 20px 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.titulo-centrado {
+    text-align: center;
+}
