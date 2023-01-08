@@ -2,35 +2,38 @@
 <html>
     <head>
         <title>Personas</title>
-        <button onclick="unaFuncionCualquiera()">Cargar Personas</button>
 		<link rel="stylesheet" href="../css/styles.css">
         <script src="../js/prueba.js"></script>
     </head>
-    <body>
+    <body class="gradient-background">
+        <div class="titulo-centrado">
+            <button id="boton_personas" class="clase_de_boton" onclick="unaFuncionCualquiera()">Cargar Personas</button>
+        </div>
+        <div class="titulo-centrado">ESTO ES UN EJEMPLO</div>
         <h1 id="titulo-principal" class="titulo-centrado">¿Quienes somos?</h1>
 		<h4 id="subtitulo1" class="titulo-centrado">Este es nuestro equipo:</h4>
-        <table>
+        <table cellspacing="30">
             <tr>
                 <td>
-                    <h5>Pablo</h5>
+                    <h5 class="titulo-centrado">Pablo</h5>
                     <div><img src="../images/paul.jpg" width="200" height="200"></div>
                 </td>
-                <td><h5>tomas</h5>
+                <td><h5 class="titulo-centrado">tomas</h5>
                     <div><img src="../images/tomas.jpg" width="200" height="200"></div> 
                 </td>
                 <td>
-                    <h5>Bauti</h5>
+                    <h5 class="titulo-centrado">Bauti</h5>
                     <div><img src="../images/bauti.jpeg" width="200" height="200"></div>
                 </td>
             </tr>
             <tr>
                 <td><!-- Romi --></td>
                 <td> 
-                    <h5>Joha</h5>
+                    <h5 class="titulo-centrado">Joha</h5>
                     <div> <img src="../images/joha.jpeg"  width="200" height="200"></div>
                  </td>
                 <td> 
-                       <h5>gaby</h5>
+                       <h5 class="titulo-centrado">gaby</h5>
                     <div> <img src="../images/gaby.jpg"  width="200" height="200"></div></td>
             </tr>
         </table>
