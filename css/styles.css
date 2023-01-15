@@ -31,6 +31,17 @@ table {
     margin: 0 auto;
 }
 
+.fuente-grande {
+    margin-top:20px;
+    font-size: 30px;
+}
+
+.input-grande {
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
 .titulo-articulo {
     font-weight: 400;
     font-family: DauphinPlain;
