@@ -3,9 +3,34 @@
     <head>
         <title>Personas</title>
 		<link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/menu.css">
         <script src="../js/prueba.js"></script>
     </head>
     <body class="gradient-background">
+        <div id="header">
+			<ul class="nav">
+				<li><a href="web.html">🏠 Inicio</a></li>
+				<li><a href="">📚 Lecciones</a>
+					<ul>
+						<li>
+                            <a href="">🌐 HTML</a>
+                            <ul>
+                                <li><a href="formulario.html">Formulario</a></li>
+                            </ul>
+                        </li>
+						<li>
+                            <a href="">💻 Java Script</a>
+							<ul>
+								<li><a href="basura.html">Ejemplo sacar basura</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="personas.html">👥 Quienes somos</a></li>
+				<li><a href="">📧 Contacto</a></li>
+			</ul>
+            <div style="clear:both;"></div>
+		</div>
         <div class="titulo-centrado">
             <button id="boton_personas" class="clase_de_boton" onclick="unaFuncionCualquiera()">Cargar Personas</button>
         </div>

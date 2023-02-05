@@ -5,9 +5,11 @@
 }
 
 body {
-    width: 960px;
-    margin: 0 auto;
     font-family: 'Open Sans';
+}
+#contenido-principal {
+    margin: 0 auto;
+    width: 960px;
 }
 img {
     border-radius: 50%;
@@ -55,6 +57,7 @@ table {
     line-height: 90px;
     font-family: DauphinPlain;
     margin: 0;
+    margin-top: 50px;
     padding: 0;
 }
 #subtitulo1 {
