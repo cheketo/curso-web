@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulario de Prueba</title>
         <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
-    <body>
+    <body class="gradient-background">
+        <!-- Empieza Menu -->
         <div id="header">
 			<ul class="nav">
 				<li><a href="web.html">🏠 Inicio</a></li>
@@ -17,6 +19,7 @@
                             <a href="">🌐 HTML</a>
                             <ul>
                                 <li><a href="formulario.html">Formulario</a></li>
+                                <li><a href="web2.html">Web 2.0</a></li>
                             </ul>
                         </li>
 						<li>
@@ -27,21 +30,25 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="personas.html">👥 Quienes somos</a></li>
+				<li><a href="personas.html">👥 Quienes somos?</a></li>
 				<li><a href="">📧 Contacto</a></li>
 			</ul>
             <div style="clear:both;"></div>
 		</div>
-        <form method="get" action="">
-            <label for="nombre">Nombre:</label>
-            <input name="nombre" type="text">
-            <br>
-            <br>
-            <label for="apellido">Apellido:</label>
-            <input name="apellido" type="text">
-            <br>
-            <br>
-            <button type="submit">ENVIAR FORMULARIO</button>
-        </form>
+        <!-- Termina Menu -->
+        
+        <div id="contenido-principal">
+            <form method="get" action="">
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" type="text">
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input name="apellido" type="text">
+                <br>
+                <br>
+                <button class="clase_de_boton" type="submit">ENVIAR FORMULARIO</button>
+            </form>
+        </div>
     </body>
 </html>
